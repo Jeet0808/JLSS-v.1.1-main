@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(3, 11, 36);
+    text-align: center;
+    color: white;
+   
+}
+#mode{
+    background-color: rgb(84, 30, 60);
+    color: white;
+    position: absolute;
+    left: 5px;
+    
+}
+@media (max-width:600px) {
+  #mode{
+      position:relative;
+      display: inline-block;
+      right: 115px;
+  }
+}
+#mode:hover{
+    background-color: rgba(31, 0, 87, 0.612);
+    width: 130px;
+  height: 40p;
+}
+.light{
+    background-color:  rgb(255, 255, 255);
+    color:  rgb(0, 0, 0);
+    }
+    .dark{
+      background-color:  rgb(3, 11, 36);
+      color: rgb(255, 255, 255);
+      }
+      a{
+        text-decoration: none;
+      }

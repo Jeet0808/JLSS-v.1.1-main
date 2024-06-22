@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(3, 11, 36);
+    
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+ol{
+    font:
+      1rem 'Fira Sans',
+      sans-serif;
+      margin-bottom: 0.5rem;
+      color:rgb(74, 125, 167);
+      
+}
+
+#h{
+    position: absolute;
+    left: 89px;
+    color: rgb(74, 125, 167);
+    font-size: x-large;
+}
+#i2{
+    color: brown;
+}
+#i3{
+    color:rgb(178, 208, 42);
+}
+#i4{
+    color:rgb(250, 0, 121);
+}
+
+#p2{
+    color: brown;
+}
+#p3{
+    color: rgb(178, 208, 42);
+}
+#p4{
+    color: rgb(250, 0, 121);
+}
+.c1{
+    color: rgb(74, 125, 167);
+}
+.c2{
+    color:  brown;
+}
+.c3{
+    color:  rgb(178, 208, 42);
+}
+.c4{
+    color: rgb(250, 0, 121);
+}
+
+#mode{
+    background-color: rgb(84, 30, 60);
+    color: bisque;
+    position: absolute;
+    left: 91%;
+    text-align: center;
+    
+}
+#mode:hover{
+    background-color: rgba(31, 0, 87, 0.612);
+    width: 110px;
+    height: 20px;
+    
+}
+@media (max-width:600px) {
+    #mode{
+        position:relative;
+        display: inline-block;
+        left: 5px;
+    }
+}
+.light{
+    background-color:  rgb(255, 255, 255);
+    color:  rgb(3, 11, 36);
+    }
+    .dark{
+      background-color:  rgb(3, 11, 36);
+      color: rgb(255, 255, 255);
+      }
+      
